@@ -40,7 +40,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
  * Spring MVC 配置
  */
 @Configuration
-public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
+public class WebMvcConfigurer extends WebMvcConfigurerAdapter {//configure the data
 
     private final Logger logger = LoggerFactory.getLogger(WebMvcConfigurer.class);
     @Value("${spring.profiles.active}")
